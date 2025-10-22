@@ -24,6 +24,11 @@ repos:
     hooks:
     -   id: yamlfix
         args: [-c, .yamlfix.toml]
+-   repo: https://github.com/ComPWA/taplo-pre-commit
+    rev: v0.9.3
+    hooks:
+    -   id: taplo-format
+    -   id: taplo-lint
 -   repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: 3.4.0
     hooks:
