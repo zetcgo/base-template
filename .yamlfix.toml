@@ -1,0 +1,6 @@
+explicit_start = false
+indent_mapping = 4
+indent_offset = 0
+indent_sequence = 4
+line_length = 120
+quote_representation = "\""

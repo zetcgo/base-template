@@ -19,6 +19,11 @@ repos:
         additional_dependencies: [prettier]
         entry: prettier --write --ignore-unknown
         exclude_types: [yaml]
+-   repo: https://github.com/lyz-code/yamlfix
+    rev: 1.18.0
+    hooks:
+    -   id: yamlfix
+        args: [-c, .yamlfix.toml]
 -   repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: 3.4.0
     hooks:
