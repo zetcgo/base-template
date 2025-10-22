@@ -11,6 +11,14 @@ repos:
     -   id: check-json
     -   id: check-toml
     -   id: check-yaml
+-   repo: local
+    hooks:
+    -   id: prettier
+        name: prettier (except yaml-typed files)
+        language: node
+        additional_dependencies: [prettier]
+        entry: prettier --write --ignore-unknown
+        exclude_types: [yaml]
 -   repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: 3.4.0
     hooks:
