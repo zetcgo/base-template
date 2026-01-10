@@ -1,3 +1,4 @@
+comments_whitelines = 0
 explicit_start = false
 indent_mapping = 4
 indent_offset = 0
