@@ -15,8 +15,7 @@ repos:
     hooks:
     -   id: prettier
         name: prettier (except yaml-typed files)
-        language: node
-        additional_dependencies: [prettier]
+        language: system
         entry: prettier --write --ignore-unknown
         exclude_types: [yaml]
 -   repo: https://github.com/lyz-code/yamlfix
