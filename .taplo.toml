@@ -1,8 +1,5 @@
 [formatting]
-align_comments = false
-allowed_blank_lines = 1
+allowed_blank_lines = 2
 column_width = 120
-compact_inline_tables = true
-indent_string = "    "
 reorder_inline_tables = true
 reorder_keys = true
