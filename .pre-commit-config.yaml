@@ -22,7 +22,6 @@ repos:
     rev: 1.19.1
     hooks:
     -   id: yamlfix
-        args: [-c, .yamlfix.toml]
 -   repo: https://github.com/ComPWA/taplo-pre-commit
     rev: v0.9.3
     hooks:
